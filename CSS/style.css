@@ -145,13 +145,9 @@ body {
  /* ----MODO VISTA 1 COLUMNA O 2 COLUMNAS---- */
 
 
- /* .checkbox {
-  display:;
- }
-
- form:has(input[type="checkbox"]:checked) .up {
+ .checkbox {
   display: none;
-} */
+ }
 
 
  /* ----MODO VISTA 1 COLUMNA O 2 COLUMNAS END---- */
