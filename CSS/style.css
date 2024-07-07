@@ -13,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   scroll-snap-type: none;
-  overflow: hidden;
+  /* overflow: hidden; NO FUNCIONE EN A40*/
 }
 
 
@@ -99,6 +99,7 @@ body {
  .título-sección {
   text-align: center;
   font-size: 20px;
+  /* DEBERÍA HACER QUE ESTE TÍTULO NO BAJE CON EL RESTO DE STICKY */
 }
 
 .filtrador {
@@ -219,5 +220,5 @@ span {
   margin-right: 10px;
 }
 
- 
+
 /* --------MAIN ARTICULOS END-------- */
