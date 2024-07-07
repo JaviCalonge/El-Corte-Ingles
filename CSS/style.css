@@ -142,6 +142,21 @@ body {
  /* --------SECCIONES END-------- */
 
 
+ /* ----MODO VISTA 1 COLUMNA O 2 COLUMNAS---- */
+
+
+ /* .checkbox {
+  display:;
+ }
+
+ form:has(input[type="checkbox"]:checked) .up {
+  display: none;
+} */
+
+
+ /* ----MODO VISTA 1 COLUMNA O 2 COLUMNAS END---- */
+
+
  /* --------MAIN ENLACE IMAGENES-------- */
 
 
@@ -177,10 +192,9 @@ body {
 
 .artículos {
   display: grid;
-  grid-template-columns: repeat(2, 50%);
+  grid-template-columns: 50% 50%;
+  justify-content: center;
   margin: 0;
-  margin-right: 5px;
-  margin-left: 5px;
   padding: 0;
   list-style: none;
 }

@@ -71,10 +71,16 @@
         <a href="#">Categorías</a>
         <a href="#">Ordenar y filtrar</a>
       </div>
-      <div class="vistas">
-        <img src="IMG/square.webp" alt="" width="23px" height="23px">
-        <img src="IMG/square2.png" alt="" width="21px" height="21px">
-      </div>
+      <!-- <div class="vistas">
+          <input type="checkbox" name="" id="vistas">
+          <img src="IMG/square.webp" alt="" width="23px" height="23px">
+          <img src="IMG/square2.png" alt="" width="21px" height="21px">
+      </div> -->
+      <form id="vistas" class="vistas" action="">
+        <input id="cambiar-vista" class="checkbox" type="checkbox" name="">
+        <label for="cambiar-vista"><img src="IMG/square.webp" alt="" width="23px" height="23px"></label>
+        <label for="cambiar-vista"><img src="IMG/square2.png" alt="" width="21px" height="21px"></label>
+      </form>
     </section>
 
   </section>
@@ -124,7 +130,7 @@
     </section>
 
     <section class="container">
-      <ul class="artículos">
+      <ul id="articulos" class="artículos">
         <li class="li-item"><img src="IMG/1.avif" alt="Camisa blanca">
           <div class="descripción">
             <p class="li-título">Emidio Tucci</p>
