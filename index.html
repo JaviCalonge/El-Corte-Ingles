@@ -24,23 +24,28 @@
 
       <section class="cabecera-left">
         <picture>
-          <img class="hamburguesa" src="IMG/menu hamburguesa.png" alt="Icono menu tipo hamburguesa" width="30"
-            height="30">
+          <input type="checkbox" id="menu">
+          <label for="menu"><img id="icono" class="hamburguesa" src="IMG/menu hamburguesa.png"
+              alt="Icono menu tipo hamburguesa" width="30" height="30"></label>
+          <label for="menu"><img id="X" src="IMG/cerrar.png" alt="Icono X para cerrar menu" width="18"
+              height="18"></label>
         </picture>
+
         <picture>
-          <img class="logo" src="IMG/logo.png" alt="Logotipo" width="140" height="70">
+          <a href="index.html"><img class="logo" src="IMG/logo.png" alt="Logotipo" width="140" height="70"></a>
         </picture>
       </section>
 
       <section class="cabecera-rigth">
         <picture>
-          <img class="user" src="IMG/user.png" alt="Perfil usuario" width="25" height="25">
+          <a href="index.html"><img class="user" src="IMG/user.png" alt="Perfil usuario" width="25" height="25"></a>
         </picture>
         <picture>
-          <img class="favoritos" src="IMG/corazón.png" alt="Favoritos" width="25" height="25">
+          <a href="index.html"><img class="favoritos" src="IMG/corazón.png" alt="Favoritos" width="25" height="25"></a>
         </picture>
         <picture>
-          <img class="cesta" src="IMG/cesta.png" alt="Cesta de la compra" width="30" height="30">
+          <a href="index.html"><img class="cesta" src="IMG/cesta.png" alt="Cesta de la compra" width="30"
+              height="30"></a>
         </picture>
       </section>
 
@@ -54,7 +59,24 @@
         </picture>
       </div>
 
-      <div class="secciones">
+      <section>
+        <ul id="menu-hamburguesa">
+          <li class="menu-link">Todo en Hombre</li>
+          <li class="menu-link">Nueva colección</li>
+          <li class="menu-link">Ropa</li>
+          <li class="menu-link">Zapatos</li>
+          <li class="menu-link">Accesorios</li>
+          <li class="menu-link">Baño</li>
+          <li class="menu-link">Relojes y joyería</li>
+          <li class="menu-link">Tallas grandes</li>
+          <li class="menu-link">Fiesta</li>
+          <li class="menu-link">Lino</li>
+          <li class="menu-link">Libros</li>
+          <li class="menu-link">Música y cine</li>
+        </ul>
+      </section>
+
+      <div id="secciones" class="secciones">
         <p>CAMISAS</p>
         <p>POLOS</p>
         <p>ZAPATILLAS</p>
@@ -62,7 +84,7 @@
       </div>
     </nav>
 
-    <section class="título-sección">
+    <section id="titulo" class="título-sección">
       <p>Moda Hombre</p>
     </section>
 
@@ -76,11 +98,11 @@
           <img src="IMG/square.webp" alt="" width="23px" height="23px">
           <img src="IMG/square2.png" alt="" width="21px" height="21px">
       </div> -->
-      <form id="vistas" class="vistas" action="">
+      <div id="vistas" class="vistas">
         <input id="cambiar-vista" class="checkbox" type="checkbox" name="">
         <label for="cambiar-vista"><img src="IMG/square.webp" alt="" width="23px" height="23px"></label>
         <label for="cambiar-vista"><img src="IMG/square2.png" alt="" width="21px" height="21px"></label>
-      </form>
+      </div>
     </section>
 
   </section>

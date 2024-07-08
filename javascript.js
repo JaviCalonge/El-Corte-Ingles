@@ -24,3 +24,28 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+
+document.getElementById('menu').addEventListener('change', function() {
+    var menu = document.getElementById('menu-hamburguesa');
+    var up = document.getElementById("up");
+    var secciones = document.getElementById("secciones");
+    var titulo = document.getElementById("titulo");
+    var vistas = document.getElementById("vistas");
+    var x = document.getElementById("X");
+    var icono = document.getElementById("icono");
+
+    if (this.checked) {
+        menu.style.display = 'none';
+        x.style.display = "none";
+        icono.style.display = "block";
+    } else {
+        menu.style.display = 'block';
+        up.style.display = "none";
+        secciones.style.display = "none";
+        titulo.style.display = "none";
+        vistas.style.display = "none";
+        x.style.display = "block";
+        icono.style.display = "none";
+    }
+});
