@@ -90,6 +90,14 @@ body {
   display: none;
 }
 
+#X {
+  display: none;
+}
+
+#menu-hamburguesa {
+  display: none;
+}
+
   /* ------MENU HAMBURGUESA END------ */
 
 
@@ -124,7 +132,7 @@ body {
  /* --------SECCIONES-------- */
 
 
- .secciones {
+ #secciones {
   display: flex;
   justify-content: space-evenly;
   font-weight: 500;

@@ -36,10 +36,6 @@ document.getElementById('menu').addEventListener('change', function() {
     var icono = document.getElementById("icono");
 
     if (this.checked) {
-        menu.style.display = 'none';
-        x.style.display = "none";
-        icono.style.display = "block";
-    } else {
         menu.style.display = 'block';
         up.style.display = "none";
         secciones.style.display = "none";
@@ -47,5 +43,14 @@ document.getElementById('menu').addEventListener('change', function() {
         vistas.style.display = "none";
         x.style.display = "block";
         icono.style.display = "none";
+       
+    } else {
+        menu.style.display = 'none';
+        x.style.display = "none";
+        icono.style.display = "block";
+        secciones.style.display = "block";
+        secciones.style.display = "flex";
+        titulo.style.display = "block";
     }
 });
+
