@@ -87,6 +87,8 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-decoration: none;
+  color: black;
 }
 
 #menu {
@@ -100,6 +102,11 @@ html {
 #menu-hamburguesa {
   display: none;
   scroll-behavior: smooth;
+}
+
+.hamburguesa-link {
+  text-decoration: none;
+  color: black;
 }
 
 
@@ -143,6 +150,12 @@ html {
   justify-content: space-evenly;
   font-weight: 500;
   font-size: 14px;
+  margin-top: 20px;
+ }
+
+ .secciones-link {
+  text-decoration: none;
+  color: black;
  }
 
  .título-sección {
@@ -160,9 +173,11 @@ html {
 
 .fil {
   margin-left: 15px;
+  cursor: pointer;
 }
 
 .filtros {
+  margin-bottom: 20px;
   /* NO PUEDO SEPARARLOS CON GAP... */
 }
 
@@ -200,6 +215,7 @@ html {
 
 .img-enlaces {
   text-align: center;
+  margin-left: 15px;
 }
 
 .descuento {
@@ -272,6 +288,12 @@ html {
   margin: 10px;
   margin-top: 15px;
   align-self: center;
+}
+
+.li-btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
 
 .precio {
