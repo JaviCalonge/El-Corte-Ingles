@@ -153,13 +153,17 @@ html {
 
 .filtrador {
   margin-left: 20px;
+  margin-right: 30px;
   display: flex;
   justify-content: space-between;
 }
 
+.fil {
+  margin-left: 15px;
+}
+
 .filtros {
-  display: flex;
-  gap: 15px;
+  /* NO PUEDO SEPARARLOS CON GAP... */
 }
 
 .filtros > a {
@@ -167,9 +171,7 @@ html {
 }
 
 .vistas {
-  margin-right: 30px;
-  display: flex;
-  gap: 10px;
+/* NO PUEDO SEPARARLOS CON GAP... */
 }
 
 
@@ -191,9 +193,13 @@ html {
 
 
 .primera {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
   margin-top: 40px;
+}
+
+.img-enlaces {
+  text-align: center;
 }
 
 .descuento {
@@ -299,5 +305,27 @@ span {
   }
   .lupa {
     display: none;
+  }
+  .primera {
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    justify-content: space-evenly;
+  }
+  .img-enlaces {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .img-enlaces {
+    width: 250px;
+    height: 250px;
+  }
+  .filtrador {
+    margin-left: 200px;
+    margin-right: 220px;
+  }
+  
+  .fil {
+    margin-left: 25px;
   }
 }
