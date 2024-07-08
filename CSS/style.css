@@ -17,6 +17,7 @@ html {
   padding: 0;
   scroll-snap-type: none;
   /* overflow: hidden; NO FUNCIONE EN A40*/
+  overflow: hidden;
 }
 
 .up {
@@ -83,10 +84,9 @@ html {
   padding: 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.09);
   list-style-type: none;
-}
-
-.menu-link-no {
-  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #menu {
@@ -99,17 +99,9 @@ html {
 
 #menu-hamburguesa {
   display: none;
+  scroll-behavior: smooth;
 }
 
-.menu-link {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.flecha {
-  
-}
 
   /* ------MENU HAMBURGUESA END------ */
 
