@@ -98,6 +98,16 @@ body {
   display: none;
 }
 
+.menu-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flecha {
+  
+}
+
   /* ------MENU HAMBURGUESA END------ */
 
 
