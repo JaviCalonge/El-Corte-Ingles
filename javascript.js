@@ -54,6 +54,7 @@ document.getElementById('menu').addEventListener('change', function() {
         titulo.style.display = "block";
         vistas.style.display = "block";
         filtros.style.display = "block";
+        body.style.scroll = "smooth";
     }
 });
 
