@@ -34,6 +34,7 @@ document.getElementById('menu').addEventListener('change', function() {
     var vistas = document.getElementById("vistas");
     var x = document.getElementById("X");
     var icono = document.getElementById("icono");
+    var filtros = document.getElementById("filtros");
 
     if (this.checked) {
         menu.style.display = 'block';
@@ -43,7 +44,7 @@ document.getElementById('menu').addEventListener('change', function() {
         vistas.style.display = "none";
         x.style.display = "block";
         icono.style.display = "none";
-       
+        filtros.style.display = "none";
     } else {
         menu.style.display = 'none';
         x.style.display = "none";
@@ -51,6 +52,8 @@ document.getElementById('menu').addEventListener('change', function() {
         secciones.style.display = "block";
         secciones.style.display = "flex";
         titulo.style.display = "block";
+        vistas.style.display = "block";
+        filtros.style.display = "block";
     }
 });
 
