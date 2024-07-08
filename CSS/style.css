@@ -313,6 +313,12 @@ span {
   .img-enlaces {
     margin-left: 10px;
   }
+  .vistas {
+    display: none;
+  }
+  #menu-hamburguesa {
+    width: 40%;
+  }
 }
 
 @media (min-width: 1500px) {
@@ -322,7 +328,7 @@ span {
   }
   .filtrador {
     margin-left: 200px;
-    margin-right: 220px;
+    margin-right: 20px;
   }
   
   .fil {

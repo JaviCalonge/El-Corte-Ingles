@@ -19,11 +19,12 @@ document.addEventListener('DOMContentLoaded', function() {
     checkbox.addEventListener('change', function() {
         if (checkbox.checked) {
             articulos.style.gridTemplateColumns = '90%';
-        } else {
+        } else if (!checkbox.checked)  {
             articulos.style.gridTemplateColumns = '50% 50%';
         }
     });
 });
+
 
 
 document.getElementById('menu').addEventListener('change', function() {
