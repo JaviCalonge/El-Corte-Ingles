@@ -11,15 +11,26 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 
+// document.addEventListener("mousedown", function pantalla() {
+// var tamaño = document.getElementById("articulos")
+// var ventana = document.getElementById("cambiar-vistas")
+
+// if (window.screen >= "760px") {
+//     articulos.style.gridTemplateColumns = '25% 25% 25% 25%';
+// }
+    
+// })
+
 
 document.addEventListener('DOMContentLoaded', function() {
     var checkbox = document.getElementById('cambiar-vista');
     var articulos = document.getElementById('articulos');
 
     checkbox.addEventListener('change', function() {
-        if (checkbox.checked) {
+        
+        if (window.screen >= "760px" && checkbox.checked) {
             articulos.style.gridTemplateColumns = '90%';
-        } else if (!checkbox.checked)  {
+        } else if (window.screen >= "760px" && !checkbox.checked)  {
             articulos.style.gridTemplateColumns = '50% 50%';
         }
     });

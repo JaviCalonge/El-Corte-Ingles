@@ -15,9 +15,7 @@ html {
   top: 0;
   margin: 0;
   padding: 0;
-  scroll-snap-type: none;
-  /* overflow: hidden; NO FUNCIONE EN A40*/
-  overflow: hidden;
+  /* scroll-snap-type: none; */
 }
 
 .up {
@@ -178,16 +176,12 @@ html {
 
 .filtros {
   margin-bottom: 20px;
-  /* NO PUEDO SEPARARLOS CON GAP... */
 }
 
 .filtros > a {
   color: black;
 }
 
-.vistas {
-/* NO PUEDO SEPARARLOS CON GAP... */
-}
 
 
  /* --------SECCIONES END-------- */
@@ -229,12 +223,6 @@ html {
   text-align: center;
 }
 
-.segunda {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 40px;
-}
-
 
 /* --------MAIN ENLACE IMAGENES END-------- */
 
@@ -242,7 +230,7 @@ html {
 /* --------MAIN ARTICULOS-------- */
 
 
-.artículos {
+.articulos {
   display: grid;
   grid-template-columns: 50% 50%;
   justify-content: center;
@@ -312,9 +300,11 @@ span {
 
 
 @media (min-width: 766px) {
-  .artículos {
+
+  .articulos {
     grid-template-columns: 25% 25% 25% 25%;
   }
+  
   .buscador {
     width: 30%;
     margin: auto;
@@ -328,6 +318,11 @@ span {
   .lupa {
     display: none;
   }
+
+  #ventanas {
+  display: none;
+  }
+
   .primera {
     grid-template-columns: 15% 15% 15% 15% 15% 15%;
     justify-content: space-evenly;
