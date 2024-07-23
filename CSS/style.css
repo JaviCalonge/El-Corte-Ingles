@@ -47,10 +47,8 @@ html {
 
 .enlace {
  text-decoration: none;
-}
-
-.enlace:hover {
-  color: #fff;
+ color: #fff;
+ margin-right: 8px;
 }
 
 
