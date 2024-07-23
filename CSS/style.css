@@ -40,9 +40,17 @@ html {
 .rebajas-pequeño {
   background-color: rgb(226, 0, 0);
   text-align: center;
-  color: white;
+  color: #fff;
   font-size: 14px;
   padding: 10px;
+}
+
+.enlace {
+ text-decoration: none;
+}
+
+.enlace:hover {
+  color: #fff;
 }
 
 
