@@ -113,6 +113,11 @@ html {
   color: black;
 }
 
+.flecha {
+  width: 25px;
+  height: 35px;
+}
+
 
   /* ------MENU HAMBURGUESA END------ */
 
@@ -216,6 +221,8 @@ html {
 .img-enlaces {
   text-align: center;
   margin-left: 15px;
+  width: 110px;
+  height: 110px;
 }
 
 .descuento {
@@ -236,13 +243,19 @@ html {
 /* --------MAIN ARTICULOS-------- */
 
 
-.articulos {
+.articulos-lista {
   display: grid;
   grid-template-columns: 50% 50%;
   justify-content: center;
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.img-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .descripción {
@@ -307,7 +320,7 @@ span {
 
 @media (min-width: 766px) {
 
-  .articulos {
+  .articulos-lista {
     grid-template-columns: 25% 25% 25% 25%;
   }
   
